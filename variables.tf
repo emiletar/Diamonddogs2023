@@ -56,14 +56,3 @@ variable "placeholder" {
   description = "(Optional) Diamond Dog URL. Defaults to placedog.net."
 }
 
-variable "AWS_ACCESS_KEY_ID" {
-  type        = string
-  default     = "AKIARJNSBTRWRIGMC5ME"
-  description = "Access keys for aws account"
-}
-
-variable "AWS_SECRET_ACCESS_KEY" {
-  type        = string
-  default     = "n/5nl6BsZ5Wxyij477dNDgDu6WpwzWvTB2J7vBFJ"
-  description = "Secret Access keys for aws account"
-}
